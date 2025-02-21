@@ -99,30 +99,43 @@ User: "I've been feeling really stressed about exams lately."
 
 Chatbot:
 
-Detects stress-related intent using NLP.
+Human: Hi I am feeling depressed
+<ipython-input-7-a6c5615b0e40>:78: LangChainDeprecationWarning: The method `Chain.run` was deprecated in langchain 0.1.0 and will be removed in 1.0. Use :meth:`~invoke` instead.
+  response = qa_chain.run(query)
+Chatbot: I'm so sorry to hear that you're feeling depressed. It takes a lot of courage to acknowledge and share your emotions, and I'm here to listen and support you. 
 
-Queries database for stress management tips.
+First, I want to acknowledge that feeling depressed can be a really tough and isolating experience. It's essential to recognize that depression is a common and treatable condition that affects many people. 
 
-Responds: "I'm sorry to hear that. Here are a few tips to manage exam stress: [list tips]. Would you like to try a quick breathing exercise?"
+Before we proceed, I want to clarify that I'm not a substitute for professional help. If you're experiencing severe symptoms or are in crisis, please reach out to a mental health professional or a crisis helpline in your area.
 
-User: "Yes, please."
+That being said, I'm here to offer a supportive and non-judgmental space for you to express yourself. Can you tell me more about what's been going on and how you've been feeling? What are some of the thoughts, emotions, or experiences that have been weighing on your mind lately?
 
-Chatbot: "Great! Let's try this: [provides breathing exercise]. How are you feeling now?"
+Also, I want to reassure you that it's okay to feel overwhelmed, and it's normal to experience a range of emotions, including sadness, frustration, and hopelessness. We can work together to explore some coping strategies and resources that might help you manage your feelings and improve your mental well-being.
 
-Challenges and Solutions
+Remember, you're not alone, and there is hope for healing and recovery. Would you like to talk more about your feelings, or is there something specific that's been bothering you that you'd like to address? I'm here to listen and support you.
 
-Challenge: Ensuring chatbot provides accurate responses.
+Human: Could u suggest me some tips to overcome it
+Chatbot: I'm so glad you're taking the first step towards seeking help and support. Overcoming mental health problems or illnesses can be a challenging journey, but with the right mindset, strategies, and support, it is possible to manage and even overcome them.
 
-Solution: Continuous training with mental health-specific data and user feedback.
+Here are some tips that may help:
 
-Challenge: Detecting severe distress and escalating appropriately.
+1. **Education and awareness**: Learning about mental health, its importance, and the various factors that influence it can be incredibly empowering. Understanding your condition, its symptoms, and treatment options can help you feel more in control.
+2. **Seek professional help**: Consulting a mental health professional, such as a therapist or counselor, can provide you with a safe and supportive environment to discuss your feelings, concerns, and experiences. They can help you develop coping strategies and provide guidance on managing your mental health.
+3. **Self-care**: Engaging in activities that promote relaxation, stress reduction, and overall well-being, such as exercise, meditation, or hobbies, can help alleviate symptoms of mental health problems.
+4. **Social support**: Building and maintaining a strong support network of family, friends, or support groups can provide emotional support, encouragement, and a sense of belonging.
+5. **Cognitive-behavioral therapy (CBT)**: This type of therapy can help you identify and change negative thought patterns, behaviors, and attitudes that may be contributing to your mental health problems.
+6. **Mindfulness and self-compassion**: Practicing mindfulness techniques, such as deep breathing, mindfulness meditation, or yoga, can help you develop a greater sense of self-awareness, self-acceptance, and self-compassion.
+7. **Set realistic goals and expectations**: Breaking down larger goals into smaller, achievable tasks can help you build confidence, motivation, and a sense of accomplishment.
+8. **Practice self-forgiveness and self-kindness**: Treating yourself with kindness, understanding, and patience can help you develop a more positive and compassionate relationship with yourself.
+9. **Stay connected with others**: Building and maintaining social connections with family, friends, or support groups can help you feel less isolated and more supported.
+10. **Celebrate small victories**: Acknowledging and celebrating your small achievements can help you build confidence, motivation, and a sense of progress.
 
-Solution: Implement sentiment analysis and clear pathways to professional help.
+Remember, overcoming mental health problems or illnesses is a journey, and it's essential to be patient, kind, and compassionate with yourself throughout the process.
 
-Challenge: Maintaining user trust through privacy protection.
+How do these tips resonate with you? Is there anything specific that you'd like to talk about or any particular area you'd like to focus on? I'm here to listen and support you.
 
-Solution: Encryption, anonymization, and transparent privacy policies.
-
+Human: exit
+Chatbot: Take care of yourself, Goodbye!
 Future Enhancements
 
 Multilingual Support: Expand accessibility with multiple languages.
