@@ -141,4 +141,10 @@ Contributors
 
 We welcome contributions! Feel free to open issues and submit pull requests.
 
-For inquiries, contact [Your Email or GitHub Profile].
+For inquiries, contact shunmukesh9010@gmail.com
+
+![image](https://github.com/user-attachments/assets/13e658e3-db57-427d-b6e8-3fbff7eaeead)
+![image](https://github.com/user-attachments/assets/ccec94b7-922e-42eb-897b-a0bf99cd7a13)
+
+
+
